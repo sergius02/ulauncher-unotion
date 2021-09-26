@@ -1,0 +1,25 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "UNotion",
+  "description": "Save your ideas to Notion",
+  "developer_name": "Sergio Fernández Celorio",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "unotion_keyword",
+      "type": "keyword",
+      "name": "UNotion",
+      "default_value": "un"
+    },
+    {
+      "id": "notion_token",
+      "type": "input",
+      "name": "Notion token",
+      "description": "You can generate a token in https://www.notion.so/my-integrations, create an integration and follow the instructions to link the token with a database",
+      "default_value": ""
+    }
+  ]
+}
